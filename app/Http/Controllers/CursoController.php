@@ -16,6 +16,10 @@ class CursoController extends Controller
     {
         return view('cursos.create');
     }
+    public function store()
+    {
+        
+    }
     public function show($id)
     {
         $curso = Curso::find($id);
